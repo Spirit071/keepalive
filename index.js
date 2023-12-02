@@ -19,7 +19,7 @@ async function fetchUrl(url, url2) {
 function fetchPeriodically() {
     fetchUrl('https://translateapi-x.onrender.com/', 'https://keepthatshitalive.onrender.com/');
     setInterval(() => {
-        fetchUrl(urlToFetch);
+        fetchUrl('https://translateapi-x.onrender.com/', 'https://keepthatshitalive.onrender.com/');
     }, 30000);
 }
 
