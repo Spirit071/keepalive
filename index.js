@@ -1,7 +1,5 @@
 import fetch from 'node-fetch';
 
-var sum = 0;
-
 async function fetchUrl(url, url2) {
     try {
         await fetch(url)
